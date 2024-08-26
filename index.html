@@ -401,32 +401,35 @@
             margin-bottom: 20px;
             font-family: 'Arial', sans-serif;
         }
+   
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
 
-        <style>
-    /* Specific styles for contact buttons */
-    .contact-buttons a {
-        display: inline-block;
-        padding: 15px 25px;
-        font-size: 16px;
-        border-radius: 5px;
-        text-align: center;
-        text-decoration: none;
-        background-color: #d6a5a4;
-        color: #fff;
-        margin: 0 10px; /* Space between buttons */
-        transition: background-color 0.3s ease;
-    }
+        .contact-button {
+            display: flex;
+            align-items: center;
+            background-color: #e1f4c3;
+            color: #000000;
+            padding: 15px 25px;
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+        }
 
-    .contact-buttons a:hover {
-        background-color: #c08484;
-    }
-
-    .contact-buttons a img {
-        vertical-align: middle;
-        margin-right: 10px;
-        width: 24px;
-        height: 24px;
-    }
+        .contact-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
         .contact-button:hover {
             background-color: #cbeb99;
         }
@@ -663,25 +666,28 @@
         </div>
     </div>
 
-    <!-- Contact Us Section -->
-<div class="contact-section-wrapper" id="contact">
-    <div class="contact-section">
-        <h4>Contact Us</h4>
-        <div class="contact-buttons">
-            <a href="contact.html" class="booking-button" id="mainContactButton">Contact Us</a>
-            <a href="#"><img src="https://raw.githubusercontent.com/PaycheckBudget/EventPlanner/main/images/B%20(49).png" alt="WhatsApp Icon"> WhatsApp</a>
-        </div>
-        <div class="social-icons">
-            <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/Instagram%20icon%20png.png?raw=true" alt="Instagram"></a>
-            <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/TikTok%20icon%20png.png?raw=true" alt="TikTok"></a>
-            <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/Facebook%20icon%20png.png?raw=true" alt="Facebook"></a>
-            <a href="#"><img src="https://raw.githubusercontent.com/PaycheckBudget/EventPlanner/main/images/X%20icon%20png.png" alt="X"></a>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2024 Event Planner
+    !-- Contact Us Section -->
+    <div class="contact-section-wrapper" id="contact">
+        <div class="contact-section">
+            <h4>Contact Us</h4>
+            <div class="contact-buttons">
+                <a href="#" class="contact-button">
+                    <img src="https://raw.githubusercontent.com/PaycheckBudget/EventPlanner/main/images/B%20(49).png" alt="WhatsApp Icon">
+                    WhatsApp
+                </a>
+                <a href="#" class="booking-button" id="mainContactButton">Contact Us</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/Instagram%20icon%20png.png?raw=true" alt="Instagram"></a>
+                <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/TikTok%20icon%20png.png?raw=true" alt="TikTok"></a>
+                <a href="#"><img src="https://github.com/PaycheckBudget/EventPlanner/blob/main/images/Facebook%20icon%20png.png?raw=true" alt="Facebook"></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/PaycheckBudget/EventPlanner/main/images/X%20icon%20png.png" alt="X"></a>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Event Planner
+            </div>
         </div>
     </div>
-</div>
 
     <script>
         // Function to handle review navigation
