@@ -246,6 +246,111 @@
             color: #333;
             margin-top: 20px;
         }
+        /* Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        font-size: 10px; /* Smaller font size for mobile */
+        gap: 20px; /* Reduce gap between navigation items */
+    }
+
+    .hero-banner h1 {
+        font-size: 40px;
+    }
+
+    .hero-banner {
+        height: 300px; /* Increase the height of the banner */
+        padding: 20px;
+        background-size: cover; /* Ensure the background image covers the entire area */
+        background-position: center; /* Center the background image */
+    }
+
+    /* About Us Section */
+    .about-section {
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        text-align: center; /* Center-align text */
+        padding: 20px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0; /* Remove side padding for full-width text */
+        margin-bottom: 20px; /* Add space below the text */
+    }
+
+    .about-image {
+        width: 100%; /* Make image full-width */
+        margin-top: 20px; /* Add space above the image */
+    }
+
+    .about-text h2 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        margin-bottom: 15px; /* Reduce margin below the title */
+    }
+
+    .about-text p {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.8;
+        margin-bottom: 20px; /* Adjust spacing between paragraphs */
+    }
+
+    .about-text .booking-button {
+        font-size: 16px;
+        padding: 12px 20px;
+        margin: 0 auto; /* Center the button */
+        display: block; /* Ensure the button is block-level */
+        width: fit-content; /* Button width fits the content */
+    }
+
+    .contact-section-wrapper {
+        padding: 40px 0;
+    }
+
+    .social-icons img {
+        width: 20px; /* Same size as announcement bar icons */
+        height: 20px;
+        margin: 0 10px;
+        vertical-align: middle;
+    }
+
+    .contact-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 15px; /* Space between buttons */
+    }
+
+    .contact-button,
+    .booking-button {
+        width: 100%; /* Make buttons full width */
+    }
+
+    /* Centering the WhatsApp icon and text */
+    .contact-button {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center both icon and text */
+        background-color: #e1f4c3;
+        color: #000000;
+        padding: 15px 25px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .contact-button img {
+        margin-right: 8px; /* Adjust spacing between icon and text */
+    }
+
+    .contact-button:hover {
+        background-color: #cbeb99;
+    }
+}
     </style>
 </head>
 
